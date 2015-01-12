@@ -1,0 +1,20 @@
+{
+  "name": "cuisine",
+  "version": "0.0.0",
+  "authors": [
+    "Sayawan Devs <sayawan.devs@gmail.com>"
+  ],
+  "description": "Something I dont know yet",
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#~0.5.2"
+  }
+}

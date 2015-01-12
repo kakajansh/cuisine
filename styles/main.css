@@ -1,0 +1,71 @@
+body {
+    font-family: sans-serif;
+    background: #fafafa;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #333;
+}
+
+    html, body {
+      height: 100%;
+      margin: 0;
+    }
+  
+    body {
+      font-family: sans-serif;
+    }
+    
+    core-scaffold {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+    }
+    
+    .content {
+      background-color: #fff;
+      min-height: 1200px;
+      padding: 20px;
+    }
+
+    core-header-panel {
+        height: 300px;
+    }
+    
+    /* some default styles for mode="cover" on core-scaffold */
+    core-scaffold[mode=cover]::shadow core-header-panel::shadow #mainContainer {
+        /*left: 120px;*/
+    }
+    
+    core-scaffold[mode=cover] .content {
+      margin: 140px 100px 20px 0;
+    }
+
+    core-scaffold[mode=cover] core-toolbar {
+      background-color: #526E9C;
+      color: #fff;
+      height: 300px;
+    }
+    
+
+    #bottom {
+        position: absolute;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+    }
+
+
+
+
+
+
+    core-animated-pages {
+      position: absolute;
+      top: 200px;
+      right: 100px;
+      bottom: 0px;
+      left: 0;
+      font-size: 72px;
+      /*overflow: scroll;*/
+    }
